@@ -4,10 +4,14 @@ metadata:
   name: spring-cloud-serverless
   description: Tanzu Application Platform GUI Component
   tags:
-    - v1alpha1
+    - app-accelerator
+    - java
+    - spring
+    - cloud
+    - serverless
+    - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-cloud-serverless'
-    'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
   lifecycle: experimental
